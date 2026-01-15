@@ -14,9 +14,14 @@ class employee:
 
 # creat an object of the class
 sam = employee()
+sam.name = "samkumar"
 
 #calling a method
 sam.travel("kerela")
 #printing an attriburte
 #print(sam.id)
 print(type(sam))
+print(sam.name)
+from oops_proj import chatbook
+user1=chatbook()
+print(user1._chatbook__name)
